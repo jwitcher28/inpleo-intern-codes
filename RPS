@@ -1,0 +1,43 @@
+
+from random import randint 
+
+#List the variables of the game 
+hand = ['Rock', 'Paper', 'Scissors']
+
+#Make the computer do a random move 
+computer = hand[randint(0,2)] 
+
+#Make player false 
+player = False 
+
+while player == False: 
+   # Make player true and write game code 
+    player = input('Rock, Paper, Scissors? ')
+if player == computer: 
+    print('Tie')
+elif player == 'Rock': 
+    if computer == 'Paper': 
+        print('You Suck! They played paper!')
+    else:
+         print('Good Job!!!!') 
+elif player == 'Paper': 
+    if computer == 'Scissors': 
+        print('Loser! They played scissors!') 
+    else: 
+        print('Woohoo!!!!') 
+elif player == 'Scissors': 
+    if computer == 'Rock': 
+        print('Maybe Next Time! They played rock!') 
+    else: 
+        print('Great Job!') 
+
+#Repeat beginning to have a loop   
+player = False
+computer = hand[randint(0,2)] 
+
+
+
+
+
+
+

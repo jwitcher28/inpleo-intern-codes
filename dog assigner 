@@ -1,0 +1,40 @@
+
+from random import randint   
+
+
+print_1 = input('Do you like going on walks? Yes or No? ')
+if print_1 == 'No':
+    printt = input('Do you have short or long hair?: ')
+    if printt == 'long':
+        printtt = input('Do you like the cold or hot?: ') 
+        if printtt == 'Hot':
+            print('You are a Pekingese!')  
+        else: 
+            print('You are a Caucasian Shephard Dog!') 
+    else: 
+        printttt = input('Are you tall or short?: ') 
+        if printttt == 'tall': 
+            print('You are a Boerboel!') 
+        else: 
+            print('You are a French Bulldog!') 
+else: 
+    printtttt = input('Do you have short or long hair?: ')
+    if printtttt == 'long': 
+        printtttttt = input('Do you have straight or curly hair?: ')
+        if printtttttt == 'straight': 
+            print('You are a Borzoi!') 
+        else: 
+            print('You are a Poodle!') 
+    else: 
+        printttttttt = input('Are you tall or short?: ') 
+        if printttttttt == 'tall': 
+            print('You are a Saluki!') 
+        else: 
+            print('You are a Portuguese Podengo Pequeno!') 
+
+
+
+
+
+
+
